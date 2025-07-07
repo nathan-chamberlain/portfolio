@@ -74,7 +74,7 @@ export default function Sapp() {
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 hidden md:block">
                     <div className="max-w-screen-md">
                         <h2 className="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Try out SAPP</h2>
-                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Experience the efficient workflow of SAPP. Put yourself into the shoes of a medical professional, who's timely and informed decisions can be the difference between life and death.</p>
+                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Experience the efficient workflow of SAPP. Put yourself into the shoes of a medical professional, whos timely and informed decisions can be the difference between life and death.</p>
                         <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                             <button onClick={() => setSappOpen(!sappOpen)} className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                                 Try it out
