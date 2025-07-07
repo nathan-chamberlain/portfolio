@@ -1,8 +1,27 @@
+'use client';
+
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Project from '@/components/Project';
+import { useRef } from 'react';
+
 export default function Home() {
+  const projectRef = useRef<HTMLDivElement>(null);
+
+  const scrollToProject = () => {
+    projectRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  };
+
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center">
-      <h1 className="text-4xl mb-4 font-semibold">Nathan Chamberlain Portfolio</h1>
-      <p className="text-lg mb-8">This website is under construction.</p>
-    </div>
+    <>
+      <Header onScrollToProject={scrollToProject} />
+      <div ref={projectRef}>
+        <Project />
+      </div>
+      <Footer />
+    </>
   );
 }
