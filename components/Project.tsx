@@ -6,12 +6,13 @@ const Project = () => {
         <section>
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 <Image
-                    src="/images/sapp.png"
+                    src="/images/sapp3.png"
                     className="w-full rounded-lg"
                     alt="SAPP image"
                     width={1339}
                     height={910}
                     priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className="mt-4 md:mt-0">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Sepsis App</h2>

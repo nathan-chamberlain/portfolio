@@ -1,12 +1,21 @@
 'use client';
 
 import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import Hero from '@/components/Hero';
 import Project from '@/components/Project';
 import { useRef } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 
-export default function Home() {
+const Home = () => {
   const projectRef = useRef<HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+
+  let contactOpen = false;
+
+  if (searchParams) {
+    contactOpen = searchParams.get('contact') === 'true';
+  }
 
   const scrollToProject = () => {
     projectRef.current?.scrollIntoView({
@@ -17,11 +26,22 @@ export default function Home() {
 
   return (
     <>
-      <Header onScrollToProject={scrollToProject} />
+      <Hero onScrollToProject={scrollToProject} contactOpen={contactOpen} />
       <div ref={projectRef}>
         <Project />
       </div>
       <Footer />
     </>
   );
+}
+
+
+export default function HomePage() {
+  <Suspense fallback={
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
+    </div>
+  }>
+    <Home />
+  </Suspense>
 }

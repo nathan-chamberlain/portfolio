@@ -3,6 +3,7 @@
 @source "../.flowbite-react/class-list.json";
 @plugin "flowbite-typography";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
