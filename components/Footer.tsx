@@ -20,6 +20,9 @@ const Footer = () => {
                                 <li className="mb-4">
                                     <Link href="/sapp" className="hover:underline">SAPP</Link>
                                 </li>
+                                <li className="mb-4">
+                                    <Link href="/gemtech-website" className="hover:underline">Gemtech Website</Link>
+                                </li>
                             </ul>
                         </div>
                         <div>
