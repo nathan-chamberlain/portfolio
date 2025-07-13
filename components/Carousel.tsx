@@ -1,9 +1,10 @@
 'use client';
 import React, { useState } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+import { StaticImageData } from "next/image";
 
 interface CarouselProps {
-    images: string[];
+    images: StaticImageData[];
 }
 
 const Carousel: React.FC<CarouselProps> = ({ images }) => {
@@ -30,13 +31,11 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                 }}
             >
                 {images.map((src, index) => (
-                    <Image
+                    <ExportedImage
                         key={index}
                         src={src}
                         alt={`Slide ${index}`}
                         className="w-full flex-shrink-0 object-cover"
-                        height={500}
-                        width={800}
                         priority
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 45vw"
                     />

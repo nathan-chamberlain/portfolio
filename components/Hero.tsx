@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 interface HeaderProps {
     onScrollToProject?: () => void;
@@ -37,7 +37,7 @@ const Hero = ({ onScrollToProject, contactOpen = false }: HeaderProps) => {
                 </div>
                 <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                     <div className="rounded-xl overflow-hidden w-full">
-                        <Image
+                        <ExportedImage
                             src="/images/pfp.png"
                             className="w-full object-cover"
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 500px"

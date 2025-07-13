@@ -1,9 +1,10 @@
 import Carousel from '@/components/Carousel';
+import { StaticImageData } from 'next/image';
 
 interface ProjectHeroProps {
     title: string;
     description: string;
-    images: string[];
+    images: StaticImageData[];
     imagePosition?: 'left' | 'right';
 }
 

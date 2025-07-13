@@ -4,14 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next-image-export-optimizer",
+    "start": "npx serve@latest out",
+    "lint": "next lint",
+    "deploy": "npx netlify deploy --prod --dir=out"
   },
   "dependencies": {
     "next": "15.3.5",
+    "next-image-export-optimizer": "^1.19.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -21,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
+    "netlify": "^22.2.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

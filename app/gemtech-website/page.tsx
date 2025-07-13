@@ -1,28 +1,40 @@
 import ProjectHero from "@/components/ProjectHero";
 import TechStack, { TechItem } from "@/components/TechStack";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { Metadata } from "next";
 import ProjectContent from "@/components/ProjectContent";
+
+import gemtech1 from "@/public/images/gemtech1.png";
+import gemtech2 from "@/public/images/gemtech2.png";
+import gemtech3 from "@/public/images/gemtech3.png";
+import gemtech4 from "@/public/images/gemtech4.png";
+import gemtech5 from "@/public/images/gemtech5.png";
+import gemtech6 from "@/public/images/gemtech6.png";
+import gemtech7 from "@/public/images/gemtech7.png";
+import gemtech8 from "@/public/images/gemtech8.png";
+
+import decapLogo from "@/public/images/decap.svg";
 
 export const metadata: Metadata = {
     title: "Gemtech Solutions Website | Nathan Chamberlain Portfolio",
     description: "I am currently creating a new website for Gemtech Solutions using Next.js. The website includes a content management system that allows Gemtech Solutions to easily update and manage their content.",
 };
 
+
 const GemtechWebsite = () => {
     const images = [
-        "/images/gemtech1.png",
-        "/images/gemtech2.png",
-        "/images/gemtech3.png",
-        "/images/gemtech4.png",
-    ]
+        gemtech1,
+        gemtech2,
+        gemtech3,
+        gemtech4,
+    ];
 
     const cmsImages = [
-        "/images/gemtech5.png",
-        "/images/gemtech6.png",
-        "/images/gemtech7.png",
-        "/images/gemtech8.png",
-    ]
+        gemtech5,
+        gemtech6,
+        gemtech7,
+        gemtech8,
+    ];
 
     return (
         <>
@@ -70,8 +82,8 @@ const GemtechWebsite = () => {
                 <TechItem
                     name="Decap CMS"
                     icon={
-                        <Image
-                            src="/images/decap.svg"
+                        <ExportedImage
+                            src={decapLogo}
                             alt="Decap CMS Logo"
                             width={32}
                             height={32}

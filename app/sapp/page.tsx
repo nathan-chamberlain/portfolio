@@ -3,20 +3,21 @@ import ProjectContent from '@/components/ProjectContent';
 import { Metadata } from 'next';
 import TechStack, { TechItem } from '@/components/TechStack';
 
+// Import images as static assets
+import sapp1 from '@/public/images/sapp1.png';
+import sapp2 from '@/public/images/sapp2.png';
+import sapp3 from '@/public/images/sapp3.png';
+import sapp4 from '@/public/images/sapp4.png';
+import sapp5 from '@/public/images/sapp5.png';
+import sapp6 from '@/public/images/sapp6.png';
+
 export const metadata: Metadata = {
     title: 'Sepsis App (SAPP) | Nathan Chamberlain Portfolio',
     description: 'Sepsis App (SAPP) is an application designed to support clinical decision-making in emergency departments around infection and sepsis. It is currently in development at Victoria University in collaboration with CCDHB, Te Whatu Ora, and Wellington Hospital.',
 };
 
 export default function Sapp() {
-    const images = [
-        "/images/sapp1.png",
-        "/images/sapp2.png",
-        "/images/sapp3.png",
-        "/images/sapp4.png",
-        "/images/sapp5.png",
-        "/images/sapp6.png",
-    ];
+    const images = [sapp1, sapp2, sapp3, sapp4, sapp5, sapp6];
 
     return (
         <>
