@@ -13,7 +13,7 @@ import sapp6 from '@/public/images/sapp6.png';
 
 export const metadata: Metadata = {
     title: 'Sepsis App (SAPP) | Nathan Chamberlain Portfolio',
-    description: 'Sepsis App (SAPP) is an application designed to support clinical decision-making in emergency departments around infection and sepsis. It is currently in development at Victoria University in collaboration with CCDHB, Te Whatu Ora, and Wellington Hospital.',
+    description: 'Sepsis App (SAPP) is an application designed to support clinical decision-making in emergency departments around infection and sepsis. I am currently developing SAPP in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington.',
 };
 
 export default function Sapp() {
@@ -29,8 +29,8 @@ export default function Sapp() {
             <ProjectContent
                 title="About SAPP"
                 sections={[
-                    "I am currently developing SAPP in collaboration with Victoria University, CCDHB, Te Whatu Ora, and Wellington Hospital.",
-                    "Clinicians in the Wellington Hospital emergency department are time-poor, with triaging taking on average ten minutes or less. SAPP addresses this through its efficient and simplistic design, allowing clinicians to quickly assess patients and make informed decisions about their care.",
+                    "I am currently developing SAPP in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington.",
+                    "Clinicians in emergency departments are time-poor, with triaging taking on average ten minutes or less. SAPP addresses this through its efficient and simplistic design, allowing clinicians to quickly assess patients and make informed decisions about their care.",
                     "The application is designed to be used on a tablet, with a user-friendly interface that allows clinicians to quickly input patient information and receive recommendations for further action. SAPP is currently in development, with plans for user testing and trials in the near future.",
                     "I am developing SAPP for my honours project at Victoria University, with the goal of creating a tool that will improve patient outcomes and support clinicians in their decision-making."
                 ]}

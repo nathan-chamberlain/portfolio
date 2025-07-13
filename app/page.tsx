@@ -34,7 +34,7 @@ const Home = () => {
             <div ref={projectRef}>
                 <Project
                     title="Sepsis App"
-                    description="I am currently creating an application that supports clinical decisions around sepsis in the emergency department. This project is in collaboration with the CCDHB, Te Whatu Ora, and Wellington Hospital."
+                    description="I am currently creating an application that supports clinical decisions around sepsis in the emergency department. This project is in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington."
                     imageSrc="/images/sapp3.png"
                     imageAlt="SAPP image"
                     link="/sapp"
@@ -43,10 +43,10 @@ const Home = () => {
                 />
             </div>
             <Project
-                title="Gemtech Website"
-                description="I am currently creating a new website for Gemtech Solutions using Next.js."
+                title="New Gemtech Website"
+                description="I am currently creating a new website for Gemtech using Next.js."
                 imageSrc="/images/gemtech1.png"
-                imageAlt="Gemtech Solutions website"
+                imageAlt="New Gemtech Website"
                 link="/gemtech-website"
                 linkText="Learn more"
                 imagePosition="left"

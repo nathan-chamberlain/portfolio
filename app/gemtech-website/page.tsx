@@ -16,8 +16,8 @@ import gemtech8 from "@/public/images/gemtech8.png";
 import decapLogo from "@/public/images/decap.svg";
 
 export const metadata: Metadata = {
-    title: "Gemtech Solutions Website | Nathan Chamberlain Portfolio",
-    description: "I am currently creating a new website for Gemtech Solutions using Next.js. The website includes a content management system that allows Gemtech Solutions to easily update and manage their content.",
+    title: "New Gemtech Website | Nathan Chamberlain Portfolio",
+    description: "I am currently creating a new website for Gemtech using Next.js. The website includes a content management system that allows Gemtech to easily update and manage their content.",
 };
 
 
@@ -39,28 +39,29 @@ const GemtechWebsite = () => {
     return (
         <>
             <ProjectHero
-                title="Gemtech Solutions Website"
-                description="I am currently creating a new website for Gemtech Solutions using Next.js."
+                title="New Gemtech Website"
+                description="The new Gemtech website is designed to optimised for search engines, modern and professional. It will increase Gemtech's internet presence, with the goal of reaching new clients and partners."
                 images={images}
             />
             <ProjectContent
-                title={"About Gemtech Solutions Website"}
+                title={"About Gemtech Website"}
                 sections={[
                     "The new Gemtech website is designed to be modern, responsive, and user-friendly, showcasing Gemtech's capabilities across their service lines in the public and private sectors.",
                     "The project is still in development, with plans to soft-launch the website soon. The goal is to create a platform that not only highlights Gemtech's capabilities but also provides a seamless user experience for their clients and partners.",
-                    "A special focus is placed on ensuring the website is optimised for search engines, enhancing Gemtech's online visibility and reach. The use of Next.js allows for fast loading times and image optimisation, which are crucial for retaining visitors and improving engagement.",
+                    "I am one of two developers working on the new Gemtech website, and we are working alongside Gemtech's team to ensure that the site meets their needs and expectations. The website is being built using Next.js, a powerful React framework that allows for fast loading times and optimised performance.",
+                    "A special focus is placed on ensuring the website is optimised for search engines, enhancing Gemtech's online visibility and reach."
                 ]}
             />
             <ProjectHero
                 title="Content Management System"
-                description="The website includes a content management system that allows Gemtech Solutions to easily update and manage their content."
+                description="The website includes a content management system that allows Gemtech to easily update and manage their content."
                 images={cmsImages}
                 imagePosition="left"
             />
             <ProjectContent
                 title="About the CMS"
                 sections={[
-                    "The website includes a content management system that allows Gemtech Solutions to easily update and manage their content. This system is designed to be user-friendly, enabling non-technical staff to make changes without needing extensive training.",
+                    "The CMS is designed to be user-friendly, enabling non-technical staff to make changes without needing extensive training.",
                     "The CMS supports various content types, including text, images, pages and videos, ensuring that Gemtech can keep their website fresh and engaging. It also includes customisation of metadata for SEO optimisation, allowing Gemtech to improve their search engine rankings and visibility.",
                     "The CMS has been built with scalability in mind, allowing for future expansion as Gemtech's needs grow. This ensures that the website can evolve alongside the company, adapting to new requirements and technologies.",
                     "During editing, previews of changes are available, allowing Gemtech to see how updates will look before they go live. This feature helps maintain the quality and consistency of the content across the website.",

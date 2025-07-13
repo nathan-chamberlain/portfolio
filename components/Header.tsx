@@ -26,10 +26,10 @@ const Header = () => {
                                 <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white" aria-current="page">Home</Link>
                             </li>
                             <li>
-                                <Link href="/sapp" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white" aria-current="page">SAPP</Link>
+                                <Link href="/sapp" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white" aria-current="page">Sepsis App</Link>
                             </li>
                             <li>
-                                <Link href="/gemtech-website" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white" aria-current="page">Gemtech Website</Link>
+                                <Link href="/gemtech-website" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white" aria-current="page">New Gemtech Website</Link>
                             </li>
                             <li>
                                 <Link href="/?contact=true" className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-gray-900 lg:p-0 dark:text-white lg:hidden" aria-current="page">Contact</Link>
