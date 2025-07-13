@@ -35,11 +35,12 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                         src={src}
                         alt={`Slide ${index}`}
                         className="w-full flex-shrink-0 object-cover"
-                        width={1298}
-                        height={869}
+                        height={500}
+                        width={800}
                         priority
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 45vw"
                     />
+
                 ))}
             </div>
 

@@ -33,9 +33,25 @@ const Home = () => {
                 contactOpen={contactOpen}
             />
             <div ref={projectRef}>
-                <Project />
+                <Project
+                    title="Sepsis App"
+                    description="I am currently creating an application that supports clinical decisions around sepsis in the emergency department. This project is in collaboration with the CCDHB, Te Whatu Ora, and Wellington Hospital."
+                    imageSrc="/images/sapp3.png"
+                    imageAlt="SAPP image"
+                    link="/sapp"
+                    linkText="Learn more"
+                    imagePosition="right"
+                />
             </div>
-            <Footer />
+            <Project
+                title="Gemtech Website"
+                description="I am currently creating a new website for Gemtech Solutions using Next.js."
+                imageSrc="/images/gemtech1.png"
+                imageAlt="Gemtech Solutions website"
+                link="/gemtech-website"
+                linkText="Learn more"
+                imagePosition="left"
+            />
         </>
     );
 }
