@@ -18,7 +18,7 @@ const Project = ({ title, description, imageSrc, imageAlt, link, linkText, image
                 <div className="relative w-full aspect-video">
                     <ExportedImage
                         src={imageSrc}
-                        className="w-full rounded-lg"
+                        className="w-full rounded-lg object-cover"
                         alt={imageAlt}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

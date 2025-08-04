@@ -33,6 +33,15 @@ const Home = () => {
             />
             <div ref={projectRef}>
                 <Project
+                    title="interrank.xyz"
+                    description="My team and I won 2nd place at the 2025 VUW Hackathon with our project interrank.xyz, the AI-powered one-way video interview training platform. It uses AI to analyse your video responses and provide feedback on how to improve your interview skills."
+                    imageSrc="/images/interrank1.png"
+                    imageAlt="interrank.xyz"
+                    link="/interrank"
+                    linkText="Learn more"
+                    imagePosition="left"
+                />
+                <Project
                     title="Sepsis App"
                     description="I am currently creating an application that supports clinical decisions around sepsis in the emergency department. This project is in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington."
                     imageSrc="/images/sapp3.png"
@@ -41,16 +50,17 @@ const Home = () => {
                     linkText="Learn more"
                     imagePosition="right"
                 />
+                <Project
+                    title="New Gemtech Website"
+                    description="I am currently creating a new website for Gemtech using Next.js."
+                    imageSrc="/images/gemtech1.png"
+                    imageAlt="New Gemtech Website"
+                    link="/gemtech-website"
+                    linkText="Learn more"
+                    imagePosition="left"
+                />
             </div>
-            <Project
-                title="New Gemtech Website"
-                description="I am currently creating a new website for Gemtech using Next.js."
-                imageSrc="/images/gemtech1.png"
-                imageAlt="New Gemtech Website"
-                link="/gemtech-website"
-                linkText="Learn more"
-                imagePosition="left"
-            />
+
         </>
     );
 }

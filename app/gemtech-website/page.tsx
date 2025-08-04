@@ -20,22 +20,21 @@ export const metadata: Metadata = {
     description: "I am currently creating a new website for Gemtech using Next.js. The website includes a content management system that allows Gemtech to easily update and manage their content.",
 };
 
+const images = [
+    gemtech1,
+    gemtech2,
+    gemtech3,
+    gemtech4,
+];
+
+const cmsImages = [
+    gemtech5,
+    gemtech6,
+    gemtech7,
+    gemtech8,
+];
 
 const GemtechWebsite = () => {
-    const images = [
-        gemtech1,
-        gemtech2,
-        gemtech3,
-        gemtech4,
-    ];
-
-    const cmsImages = [
-        gemtech5,
-        gemtech6,
-        gemtech7,
-        gemtech8,
-    ];
-
     return (
         <>
             <ProjectHero

@@ -18,6 +18,9 @@ const Footer = () => {
                                     <Link href="/" className="hover:underline">Home</Link>
                                 </li>
                                 <li className="mb-4">
+                                    <Link href="/interrank" className="hover:underline">interrank.xyz</Link>
+                                </li>
+                                <li className="mb-4">
                                     <Link href="/sapp" className="hover:underline">Sepsis App</Link>
                                 </li>
                                 <li className="mb-4">
