@@ -41,6 +41,7 @@ const GemtechWebsite = () => {
                 title="New Gemtech Website"
                 description="The new Gemtech website is designed to optimised for search engines, modern and professional. It will increase Gemtech's internet presence, with the goal of reaching new clients and partners."
                 images={images}
+                url="https://gemtech.nz"
             />
             <ProjectContent
                 title={"About Gemtech Website"}
