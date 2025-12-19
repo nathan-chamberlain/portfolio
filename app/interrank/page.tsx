@@ -9,6 +9,9 @@ import interrank2 from "@/public/images/interrank2.png"
 import interrank3 from "@/public/images/interrank3.png"
 import interrank4 from "@/public/images/interrank4.png"
 import interrank5 from "@/public/images/interrank5.png"
+import interrank6 from "@/public/images/interrank6.jpg"
+import interrank7 from "@/public/images/interrank7.jpg"
+import interrank8 from "@/public/images/interrank8.jpg"
 import ProjectContent from "@/components/ProjectContent"
 
 const images = [
@@ -16,7 +19,10 @@ const images = [
     interrank2,
     interrank3,
     interrank4,
-    interrank5
+    interrank5,
+    interrank6,
+    interrank7,
+    interrank8
 ];
 
 const InterrankPage = () => {
@@ -34,7 +40,8 @@ const InterrankPage = () => {
                     "interrank.xyz is an AI-powered one-way video interview training platform that helps users improve their interview skills. The platform uses AI to analyse video responses and provide feedback on how to improve performance.",
                     "The project was developed by a team of six during the 2025 VUW Hackathon, where we won 2nd place. Our goal was to create a tool that would help job seekers prepare for interviews by providing them with actionable insights based on their video responses.",
                     "The platform allows users to record their answers to common interview questions, which are then analysed by AI algorithms. The AI provides feedback on various aspects of the response, such as clarity, leadership and confidence, helping users identify areas for improvement.",
-                    "interrank.xyz is designed to be user-friendly and accessible, making it easy for anyone to practice and enhance their interview skills."
+                    "interrank.xyz is designed to be user-friendly and accessible, making it easy for anyone to practice and enhance their interview skills.",
+                    "We were also honoured to recieve the opportunity to present our project and how we used AI at the Microsoft Global Hackathon in the Wellington Microsoft Office.",
                 ]}
             />
             <TechStack>

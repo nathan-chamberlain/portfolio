@@ -39,7 +39,7 @@ const GemtechWebsite = () => {
         <>
             <ProjectHero
                 title="New Gemtech Website"
-                description="The new Gemtech website is designed to optimised for search engines, modern and professional. It will increase Gemtech's internet presence, with the goal of reaching new clients and partners."
+                description="The new Gemtech website is designed to optimised for search engines, modern and professional. It has increased Gemtech's internet presence, with the goal of reaching new clients and partners."
                 images={images}
                 url="https://gemtech.nz"
             />
@@ -47,8 +47,8 @@ const GemtechWebsite = () => {
                 title={"About Gemtech Website"}
                 sections={[
                     "The new Gemtech website is designed to be modern, responsive, and user-friendly, showcasing Gemtech's capabilities across their service lines in the public and private sectors.",
-                    "The project is still in development, with plans to soft-launch the website soon. The goal is to create a platform that not only highlights Gemtech's capabilities but also provides a seamless user experience for their clients and partners.",
-                    "I am one of two developers working on the new Gemtech website, and we are working alongside Gemtech's team to ensure that the site meets their needs and expectations. The website is being built using Next.js, a powerful React framework that allows for fast loading times and optimised performance.",
+                    "The project launched in 2025. The goal was to create a platform that not only highlights Gemtech's capabilities but also provides a seamless user experience for their clients and partners.",
+                    "I am one of two developers who worked on the new Gemtech website, and we worked alongside Gemtech's team to ensure that the site meets their needs and expectations. The website is built using Next.js, a powerful React framework that allows for fast loading times and optimised performance.",
                     "A special focus is placed on ensuring the website is optimised for search engines, enhancing Gemtech's online visibility and reach."
                 ]}
             />
