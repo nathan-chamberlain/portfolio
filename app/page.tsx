@@ -44,7 +44,7 @@ const Home = () => {
                 />
                 <Project
                     title="Sepsis App"
-                    description="I created an application that supports clinical decisions around sepsis in the emergency department. This project was in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington."
+                    description="I created an application that supports clinical decisions around sepsis in the emergency department. This project was in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington. I recieved the WellingtonNZ Best Industry Project Prize (1st Place) for this project."
                     imageSrc="/images/sapp3.png"
                     imageAlt="SAPP image"
                     link="/sapp"

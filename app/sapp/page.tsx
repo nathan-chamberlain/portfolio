@@ -32,7 +32,8 @@ export default function Sapp() {
                     "I developed SAPP in collaboration with Te Whatu Ora/Health New Zealand and Te Herenga Waka/Victoria University of Wellington.",
                     "Clinicians in emergency departments are time-poor, with triaging taking on average ten minutes or less. SAPP addresses this through its efficient and simplistic design, allowing clinicians to quickly assess patients and make informed decisions about their care.",
                     "The application is designed to be used on a tablet, with a user-friendly interface that allows clinicians to quickly input patient information and receive recommendations for further action. SAPP scored highly in usability testing, with clinicians praising its ease of use and efficiency.",
-                    "I created SAPP for my honours project at Victoria University, with the goal of creating a tool that will improve patient outcomes and support clinicians in their decision-making."
+                    "I created SAPP for my honours project at Victoria University, with the goal of creating a tool that will improve patient outcomes and support clinicians in their decision-making.",
+                    "I am proud to have received the WellingtonNZ Best Industry Project Prize (1st Place) for this project."
                 ]}
             />
             <TechStack>
